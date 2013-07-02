@@ -3,6 +3,8 @@
   <TextStylePolicy inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/x-csharp">
     <FileWidth>120</FileWidth>
     <TabsToSpaces>False</TabsToSpaces>
+    <RemoveTrailingWhitespace>True</RemoveTrailingWhitespace>
+    <EolMarker>Unix</EolMarker>
   </TextStylePolicy>
   <CSharpFormattingPolicy inheritsSet="Mono" inheritsScope="text/x-csharp" scope="text/x-csharp">
     <AnonymousMethodBraceStyle>NextLine</AnonymousMethodBraceStyle>
@@ -200,5 +202,7 @@
   <TextStylePolicy inheritsSet="VisualStudio" inheritsScope="text/plain" scope="application/xml">
     <FileWidth>120</FileWidth>
     <TabsToSpaces>False</TabsToSpaces>
+    <RemoveTrailingWhitespace>True</RemoveTrailingWhitespace>
+    <EolMarker>Unix</EolMarker>
   </TextStylePolicy>
 </PolicySet>
