@@ -3,8 +3,10 @@
   <TextStylePolicy inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/x-csharp">
     <FileWidth>120</FileWidth>
     <TabsToSpaces>False</TabsToSpaces>
+    <EolMarker>Unix</EolMarker>
   </TextStylePolicy>
   <CSharpFormattingPolicy inheritsSet="Mono" inheritsScope="text/x-csharp" scope="text/x-csharp">
+    <IndentSwitchBody>True</IndentSwitchBody>
     <AnonymousMethodBraceStyle>NextLine</AnonymousMethodBraceStyle>
     <PropertyBraceStyle>NextLine</PropertyBraceStyle>
     <PropertyGetBraceStyle>NextLine</PropertyGetBraceStyle>
@@ -31,19 +33,21 @@
     <MethodCallClosingParenthesesOnNewLine>NewLine</MethodCallClosingParenthesesOnNewLine>
     <AlignToFirstMethodCallArgument>False</AlignToFirstMethodCallArgument>
     <MethodDeclarationParameterWrapping>WrapIfTooLong</MethodDeclarationParameterWrapping>
-    <NewLineAferMethodDeclarationOpenParentheses>SameLine</NewLineAferMethodDeclarationOpenParentheses>
-    <MethodDeclarationClosingParenthesesOnNewLine>SameLine</MethodDeclarationClosingParenthesesOnNewLine>
+    <NewLineAferMethodDeclarationOpenParentheses>NewLine</NewLineAferMethodDeclarationOpenParentheses>
+    <MethodDeclarationClosingParenthesesOnNewLine>NewLine</MethodDeclarationClosingParenthesesOnNewLine>
+    <AlignToFirstMethodDeclarationParameter>False</AlignToFirstMethodDeclarationParameter>
     <IndexerDeclarationParameterWrapping>WrapIfTooLong</IndexerDeclarationParameterWrapping>
-    <NewLineAferIndexerDeclarationOpenBracket>SameLine</NewLineAferIndexerDeclarationOpenBracket>
-    <IndexerDeclarationClosingBracketOnNewLine>SameLine</IndexerDeclarationClosingBracketOnNewLine>
-    <IndexerArgumentWrapping>WrapIfTooLong</IndexerArgumentWrapping>
+    <NewLineAferIndexerDeclarationOpenBracket>NewLine</NewLineAferIndexerDeclarationOpenBracket>
+    <IndexerDeclarationClosingBracketOnNewLine>NewLine</IndexerDeclarationClosingBracketOnNewLine>
+    <AlignToFirstIndexerDeclarationParameter>False</AlignToFirstIndexerDeclarationParameter>
+    <IndexerArgumentWrapping>WrapAlways</IndexerArgumentWrapping>
     <NewLineAferIndexerOpenBracket>NewLine</NewLineAferIndexerOpenBracket>
     <IndexerClosingBracketOnNewLine>NewLine</IndexerClosingBracketOnNewLine>
     <AlignToFirstIndexerArgument>False</AlignToFirstIndexerArgument>
   </CSharpFormattingPolicy>
   <TextStylePolicy inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/plain">
     <FileWidth>120</FileWidth>
-    <TabsToSpaces>False</TabsToSpaces>
+    <EolMarker>Unix</EolMarker>
   </TextStylePolicy>
   <NameConventionPolicy>
     <Rules>
@@ -195,6 +199,6 @@
   <XmlFormattingPolicy inheritsSet="Mono" inheritsScope="application/xml" scope="application/xml" />
   <TextStylePolicy inheritsSet="VisualStudio" inheritsScope="text/plain" scope="application/xml">
     <FileWidth>120</FileWidth>
-    <TabsToSpaces>False</TabsToSpaces>
+    <EolMarker>Unix</EolMarker>
   </TextStylePolicy>
 </PolicySet>
