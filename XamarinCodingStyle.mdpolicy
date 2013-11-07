@@ -14,7 +14,6 @@
     <EventRemoveBraceStyle>NextLine</EventRemoveBraceStyle>
     <StatementBraceStyle>NextLine</StatementBraceStyle>
     <ElseNewLinePlacement>NewLine</ElseNewLinePlacement>
-    <ElseIfNewLinePlacement>SameLine</ElseIfNewLinePlacement>
     <CatchNewLinePlacement>NewLine</CatchNewLinePlacement>
     <FinallyNewLinePlacement>NewLine</FinallyNewLinePlacement>
     <WhileNewLinePlacement>NewLine</WhileNewLinePlacement>
@@ -193,10 +192,7 @@
       </NamingRule>
     </Rules>
   </NameConventionPolicy>
-  <XmlFormattingPolicy inheritsSet="Mono" inheritsScope="application/xml" scope="application/xml">
-    <TabsToSpaces>True</TabsToSpaces>
-  </XmlFormattingPolicy>
-
+  <XmlFormattingPolicy inheritsSet="Mono" inheritsScope="application/xml" scope="application/xml" />
   <TextStylePolicy inheritsSet="VisualStudio" inheritsScope="text/plain" scope="application/xml">
     <FileWidth>120</FileWidth>
     <TabsToSpaces>False</TabsToSpaces>
