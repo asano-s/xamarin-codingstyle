@@ -2,7 +2,6 @@
 <PolicySet name="XamarinCodingStyle">
   <TextStylePolicy inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/x-csharp">
     <FileWidth>120</FileWidth>
-    <TabsToSpaces>False</TabsToSpaces>
     <EolMarker>Unix</EolMarker>
   </TextStylePolicy>
   <CSharpFormattingPolicy inheritsSet="Mono" inheritsScope="text/x-csharp" scope="text/x-csharp">
