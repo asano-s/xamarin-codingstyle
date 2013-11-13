@@ -14,6 +14,11 @@
     <EventAddBraceStyle>NextLine</EventAddBraceStyle>
     <EventRemoveBraceStyle>NextLine</EventRemoveBraceStyle>
     <StatementBraceStyle>NextLine</StatementBraceStyle>
+    <IfElseBraceForcement>AddBraces</IfElseBraceForcement>
+    <ForBraceForcement>AddBraces</ForBraceForcement>
+    <WhileBraceForcement>AddBraces</WhileBraceForcement>
+    <UsingBraceForcement>AddBraces</UsingBraceForcement>
+    <FixedBraceForcement>AddBraces</FixedBraceForcement>
     <ElseNewLinePlacement>NewLine</ElseNewLinePlacement>
     <CatchNewLinePlacement>NewLine</CatchNewLinePlacement>
     <FinallyNewLinePlacement>NewLine</FinallyNewLinePlacement>
@@ -27,22 +32,6 @@
     <NewParentheses>False</NewParentheses>
     <SpacesBeforeBrackets>False</SpacesBeforeBrackets>
     <SpacesAfterTypecast>True</SpacesAfterTypecast>
-    <MethodCallArgumentWrapping>WrapIfTooLong</MethodCallArgumentWrapping>
-    <NewLineAferMethodCallOpenParentheses>NewLine</NewLineAferMethodCallOpenParentheses>
-    <MethodCallClosingParenthesesOnNewLine>NewLine</MethodCallClosingParenthesesOnNewLine>
-    <AlignToFirstMethodCallArgument>False</AlignToFirstMethodCallArgument>
-    <MethodDeclarationParameterWrapping>WrapIfTooLong</MethodDeclarationParameterWrapping>
-    <NewLineAferMethodDeclarationOpenParentheses>NewLine</NewLineAferMethodDeclarationOpenParentheses>
-    <MethodDeclarationClosingParenthesesOnNewLine>NewLine</MethodDeclarationClosingParenthesesOnNewLine>
-    <AlignToFirstMethodDeclarationParameter>False</AlignToFirstMethodDeclarationParameter>
-    <IndexerDeclarationParameterWrapping>WrapIfTooLong</IndexerDeclarationParameterWrapping>
-    <NewLineAferIndexerDeclarationOpenBracket>NewLine</NewLineAferIndexerDeclarationOpenBracket>
-    <IndexerDeclarationClosingBracketOnNewLine>NewLine</IndexerDeclarationClosingBracketOnNewLine>
-    <AlignToFirstIndexerDeclarationParameter>False</AlignToFirstIndexerDeclarationParameter>
-    <IndexerArgumentWrapping>WrapAlways</IndexerArgumentWrapping>
-    <NewLineAferIndexerOpenBracket>NewLine</NewLineAferIndexerOpenBracket>
-    <IndexerClosingBracketOnNewLine>NewLine</IndexerClosingBracketOnNewLine>
-    <AlignToFirstIndexerArgument>False</AlignToFirstIndexerArgument>
   </CSharpFormattingPolicy>
   <TextStylePolicy inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/plain">
     <FileWidth>120</FileWidth>
@@ -200,4 +189,14 @@
     <FileWidth>120</FileWidth>
     <EolMarker>Unix</EolMarker>
   </TextStylePolicy>
+  <TextStylePolicy inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/x-shader">
+    <FileWidth>120</FileWidth>
+    <EolMarker>Unix</EolMarker>
+  </TextStylePolicy>
+  <TextStylePolicy inheritsSet="null" scope="text/x-unitytxt" />
+  <TextStylePolicy inheritsSet="null" scope="text/x-unityscript" />
+  <StandardHeader>
+    <Text />
+    <IncludeInNewFiles>True</IncludeInNewFiles>
+  </StandardHeader>
 </PolicySet>
