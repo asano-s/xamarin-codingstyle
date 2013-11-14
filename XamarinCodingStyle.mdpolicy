@@ -189,14 +189,4 @@
     <FileWidth>120</FileWidth>
     <EolMarker>Unix</EolMarker>
   </TextStylePolicy>
-  <TextStylePolicy inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/x-shader">
-    <FileWidth>120</FileWidth>
-    <EolMarker>Unix</EolMarker>
-  </TextStylePolicy>
-  <TextStylePolicy inheritsSet="null" scope="text/x-unitytxt" />
-  <TextStylePolicy inheritsSet="null" scope="text/x-unityscript" />
-  <StandardHeader>
-    <Text />
-    <IncludeInNewFiles>True</IncludeInNewFiles>
-  </StandardHeader>
 </PolicySet>
